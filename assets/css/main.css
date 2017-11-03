@@ -1,0 +1,11 @@
+html, body {
+    background : #313131;
+    color : #d4d4d5;
+}
+
+.ui.secondary.button, .ui.secondary.buttons .button {
+    background-color: #fff;
+    color: #1b1c1d;
+    text-shadow: none;
+    background-image: none;
+}

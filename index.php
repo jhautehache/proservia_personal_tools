@@ -14,29 +14,56 @@
 </head>
 
 <body>
-    <h1><?php echo 'It works!'; ?></h1>
-    <div class="ui primary button">
-        <i class="shop icon"></i> Add to Cart
-    </div>
-    <div class="ui secondary button">
-        Cancel
-    </div>
-    <div class="ui card">
-        <div class="image">
-            <img src="https://semantic-ui.com/images/avatar/large/jenny.jpg">
-        </div>
-        <div class="content">
-            <a class="header">Regard 1</a>
-            <div class="meta">
-                <span class="date">35x35</span>
-            </div>
-        </div>
-        <div class="extra content">
-            <span class="right floated">
-                Novembre 2017
-            </span>
-            <i class="fa fa-eur" aria-hidden="true"></i> 575
-        </div>
+    <h1><?php echo 'Ajouter un tableau'; ?></h1>
+    <form action="ajouterTableau.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <br />
+        <input type="submit" value="T&eacute;l&eacute;charger" name="submit">
+    </form>
+    <div>
+        <?php
+            $dir = "uploads/";
+            $dh  = opendir($dir);
+            while (false !== ($filename = readdir($dh))) {
+                $files[] = $filename;
+
+            }
+
+            sort($files);
+            print_r($files);
+
+            echo '<div class="ui cards">';
+
+            foreach ($files as $file) {
+                if(strlen($file) > 2) {
+                    ?>
+                    <div class="ui card">
+                        <div class="image">
+                            <img src="uploads/<?php echo $file; ?>">
+                        </div>
+                        <div class="content">
+                            <a class="header">Stevie Feliciano</a>
+                            <div class="meta">
+                                <span class="date">Joined in 2014</span>
+                            </div>
+                            <div class="description">
+                                Stevie Feliciano is a library scientist living in New York City. She likes to spend her
+                                time reading, running, and writing.
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <a>
+                                <i class="user icon"></i>
+                                22 Friends
+                            </a>
+                        </div>
+                    </div>
+                <?php
+                }
+            }
+
+            echo '</div>';
+        ?>
     </div>
 </body>
 </html>
