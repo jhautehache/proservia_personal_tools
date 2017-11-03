@@ -37,25 +37,18 @@
             foreach ($files as $file) {
                 if(strlen($file) > 2) {
                     ?>
-                    <div class="ui card">
-                        <div class="image">
+                    <div class="card">
+                        <a class="image">
                             <img src="uploads/<?php echo $file; ?>">
-                        </div>
+                        </a>
                         <div class="content">
-                            <a class="header">Stevie Feliciano</a>
+                            <a class="header">Elliot Fu</a>
                             <div class="meta">
-                                <span class="date">Joined in 2014</span>
+                                <a>Friends</a>
                             </div>
                             <div class="description">
-                                Stevie Feliciano is a library scientist living in New York City. She likes to spend her
-                                time reading, running, and writing.
+                                Elliot Fu is a film-maker from New York.
                             </div>
-                        </div>
-                        <div class="extra content">
-                            <a>
-                                <i class="user icon"></i>
-                                22 Friends
-                            </a>
                         </div>
                     </div>
                 <?php

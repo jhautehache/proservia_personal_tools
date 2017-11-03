@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edb58a44-da93-4529-bd98-dee258da62c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajouterTableau.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,13 +37,9 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="64" column="26" lean-forward="false" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-              <folding>
-                <marker date="1509727970358" expanded="true" signature="2208:2289" ph="..." />
-                <marker date="1509727970358" expanded="true" signature="2208:2320" ph="..." />
-                <marker date="1509727970358" expanded="true" signature="2208:2347" ph="..." />
-              </folding>
+            <state relative-caret-position="436">
+              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,12 +170,20 @@
       <workItem from="1509446201101" duration="2757000" />
       <workItem from="1509633295444" duration="4254000" />
       <workItem from="1509700634662" duration="2826000" />
-      <workItem from="1509721944959" duration="6106000" />
+      <workItem from="1509721944959" duration="6794000" />
     </task>
+    <task id="LOCAL-00001" summary="Premiers tests pour l'upload des images, et leur affichage en cards">
+      <created>1509728126614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509728126615</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15943000" />
+    <option name="totallyTimeSpent" value="16631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -213,6 +214,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Premiers tests pour l'upload des images, et leur affichage en cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Premiers tests pour l'upload des images, et leur affichage en cards" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -238,11 +243,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="75" lean-forward="false" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
-          <folding>
-            <marker date="1509727970358" expanded="true" signature="2208:2289" ph="..." />
-            <marker date="1509727970358" expanded="true" signature="2208:2320" ph="..." />
-            <marker date="1509727970358" expanded="true" signature="2208:2347" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -250,11 +251,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1509727970358" expanded="true" signature="2208:2289" ph="..." />
-            <marker date="1509727970358" expanded="true" signature="2208:2320" ph="..." />
-            <marker date="1509727970358" expanded="true" signature="2208:2347" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -262,11 +259,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1509727970358" expanded="true" signature="2208:2289" ph="..." />
-            <marker date="1509727970358" expanded="true" signature="2208:2320" ph="..." />
-            <marker date="1509727970358" expanded="true" signature="2208:2347" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -305,13 +298,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="64" column="26" lean-forward="false" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-          <folding>
-            <marker date="1509727970358" expanded="true" signature="2208:2289" ph="..." />
-            <marker date="1509727970358" expanded="true" signature="2208:2320" ph="..." />
-            <marker date="1509727970358" expanded="true" signature="2208:2347" ph="..." />
-          </folding>
+        <state relative-caret-position="436">
+          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
